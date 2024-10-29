@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #4CC9F0;
+    padding: 20px;
+  }
+  
+  header .logo h1 {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #FFBE0B;
+  }
+  
+  .hero {
+    background-image: url('https://via.placeholder.com/1500x600');
+    background-size: cover;
+    padding: 100px 20px;
+    color: white;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    background-color: #FFBE0B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero button:hover {
+    background-color: #F77F00;
+  }
+  
+  .info-section {
+    background-color: #FFBE0B;
+    padding: 60px 20px;
+    color: white;
+  }
+  
+  .services-section {
+    padding: 60px 20px;
+  }
+  
+  .services-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service {
+    background-color: #F77F00;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    color: white;
+    transition: transform 0.3s ease;
+  }
+  
+  .service img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .service:hover {
+    transform: scale(1.05);
+  }
+  
+  .contact-section {
+    background-color: #4CC9F0;
+    padding: 60px 20px;
+    color: white;
+  }
+  
+  footer {
+    background-color: #FF006E;
+    padding: 20px;
+    color: white;
+  }
+  

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Francisco GS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Preescolar Francisco Gavilondo Soler</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h2>Bienvenidos al Preescolar Francisco GS</h2>
+    <p>Un lugar donde los niños se sienten como en casa.</p>
+    <button onclick="scrollToSection('nosotros')">Conócenos</button>
+  </section>
+
+  <section id="nosotros" class="info-section">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos un centro educativo dedicado a fomentar el crecimiento integral de los niños a través de actividades lúdicas y educativas.</p>
+  </section>
+
+  <section id="servicios" class="services-section">
+    <h2>Nuestros Servicios</h2>
+    <div class="services-grid">
+      <div class="service">
+        <img src="https://via.placeholder.com/150" alt="Educación Preescolar">
+        <h3>Educación Preescolar</h3>
+        <p>Programas diseñados para el desarrollo de habilidades sociales y cognitivas.</p>
+      </div>
+      <div class="service">
+        <img src="https://via.placeholder.com/150" alt="Actividades Lúdicas">
+        <h3>Actividades Lúdicas</h3>
+        <p>Fomentamos la creatividad y la interacción social a través del juego.</p>
+      </div>
+      <div class="service">
+        <img src="https://via.placeholder.com/150" alt="Comedor Nutritivo">
+        <h3>Comedor Nutritivo</h3>
+        <p>Ofrecemos una alimentación balanceada para garantizar el crecimiento saludable.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact-section">
+    <h2>Contacto</h2>
+    <p>Contáctanos para más información o para inscribir a tu niño.</p>
+    <form id="contact-form">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 Jardín de Niños Alegría. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="java.js"></script>
+</body>
+</html>
